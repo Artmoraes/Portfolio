@@ -42,7 +42,7 @@ const titleWelcome = () => {
 
 const CardLetsGoBlock = () => {
   return (
-    <div>
+    <div className="slideRight">
       <div className="Card--LetsGo">
         <h1>Bora lá?!</h1>
         <img src={JBSuit} alt="Jhonny Bravo de terno" className="JB--Suit" width="400px" />
@@ -58,9 +58,9 @@ const contentWelcome = () => {
   return (
     <div className="contentWelcome">
       <div className="contentWelcome--img">
-        <img src={JBApontando} alt="Jhonny Bravo Apontando" className="JB--Apontando move" width="400px" />
+        <img src={JBApontando} alt="Jhonny Bravo Apontando" className="JB--Apontando fade--in" width="400px" />
       </div>
-      <div className="contentWelcome--CardWelcome">
+      <div className="contentWelcome--CardWelcome fade--in">
         <CardWelcome />
       </div>
       <div className="contentWelcome--LetsGo">

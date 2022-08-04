@@ -3,7 +3,7 @@ import './FunnyPortfolio/StyleWelcome.css';
 
 const CardWelcomeBlock = () => {
   return (
-    <fieldset className="My--Person--Block">
+    <div className="My--Person--Block">
       <div>
         <h2>Quem sou eu?</h2>
         <p>
@@ -16,7 +16,7 @@ const CardWelcomeBlock = () => {
           and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
         </p>
       </div>
-    </fieldset>
+    </div>
   );
 };
 

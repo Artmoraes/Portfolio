@@ -1,4 +1,5 @@
 import batman from './png/batman.gif';
+import perfil from './png/perfil.jpg';
 import './style.css';
 import './submit.css';
 
@@ -6,12 +7,13 @@ import './submit.css';
 function contats() {
   return (
     <fieldset className="forms">
+      <img src={perfil} alt="Minha foto de rosto" className='contactMe--Perfil'></img>
       <label className='contacts'>
         <h3>Meios para contato:</h3>
         <p>Telefone: {`(81) 99395-8789`}</p>
         <p>Email: {`Artmoraes1@gmail.com`}</p>
       </label>
-      <img src={batman} alt="Avatar" ></img>
+      <img src={batman} alt="Avatar" className='contactMe--Batman'></img>
     </fieldset>
   );
 }

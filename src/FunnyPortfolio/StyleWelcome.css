@@ -111,6 +111,6 @@ body {
 
 .My--Person--Block {
   display: flex;
-  width: 90%;
-  height: 90%;
+  width: 900px;
+  height: 400px;
 }
