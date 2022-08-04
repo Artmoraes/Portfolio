@@ -1,0 +1,142 @@
+.container {
+  height: 800px;
+  width: 1400px;
+  background-color: #99e299;
+  border: 3px solid black;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.tv {
+  background-color: #ed5650;
+  height: 650px;
+  width: 1270px;
+  position: relative;
+  top: 100px;
+  left: 5px;
+  border-radius: 15px;
+}
+
+.speaker{
+  position: absolute;
+  top: 50px;
+  right: 7px;
+}
+
+.speaker>div{
+  background-color: #d52f31;
+  height: 6px;
+  width: 50px;
+  margin-bottom: 5px;
+  border-radius: 8px;
+}
+
+.slot{
+  background-color: #d52f31;
+  height: 6px;
+  width: 320px;
+  position: absolute;
+  border-radius: 10px;
+  bottom: 12px;
+  left: 18px;
+}
+
+.antenna{
+  background-color: #3d3f3d;
+  height: 20px;
+  width: 60px;
+  border-radius: 20px 20px 0 0;
+  position: absolute;
+  top: -20px;
+  left: 50px;
+}
+
+.a{
+  background-color: #3d3f3d;
+  height: 70px;
+  width: 6px;
+  border-radius: 6px;
+  position: relative;
+}
+
+.a:nth-child(1){
+  bottom: 60px;
+  left: 10px;
+  transform: rotate(-30deg);
+}
+
+.a:nth-child(2){
+  bottom: 130px;
+  left: 45px;
+  transform: rotate(30deg);
+}
+
+.stand1, .stand2{
+  background-color: #d52f31;
+  height: 10px;
+  width: 48px;
+  position: absolute;
+  border-radius: 0 0 15px 15px;
+  bottom: -10px;
+}
+
+.stand1{
+  left: 45px;
+}
+
+.stand2{
+  right: 45px;
+}
+
+input[type="checkbox"]{
+  -webkit-appearance: none;
+  background-color: #f3947e;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  position: absolute;
+  top: 100px;
+  right: 15px;
+  outline: none;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:before{
+  content: 'Desligada';
+  position: absolute;
+  background-color: #000000;
+  top: -50px;
+  height: 540px;
+  width: 1155px;
+  right: 45px;
+  border-radius: 5px;
+  border: 10px solid #d52f31;
+  background-size: 125px 140px;
+  animation: move 20s infinite linear;
+}
+
+@keyframes move {
+  100%{
+    background-position: 2000px 0;
+  }
+}
+
+.project {
+  display: flex;
+  opacity: 0;
+  position: relative;
+}
+
+input:checked[type="checkbox"]:before, .project:focus{
+  content:'Ligada';
+  background-size: 100% 100%;
+  animation: none;
+  background-color:#e4e4e4;
+  opacity: 1;
+
+}
+
+

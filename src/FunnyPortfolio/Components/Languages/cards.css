@@ -1,0 +1,115 @@
+/* .container{
+  width: 328px;
+  height: 480px;
+  -webkit-perspective: 1500;
+}
+
+.container:hover .card{
+  -webkit-transform: rotateY(180deg);
+}
+
+.card, .front, .back{
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.card{
+  position: relative;
+  -webkit-transition: transform 1.5s;
+  -webkit-transform-style: preserve-3d;
+  background-image: url('https://vignette.wikia.nocookie.net/yugioh/images/9/95/SlifertheSkyDragon-GBI-AE-Back.png/revision/latest/scale-to-width-down/328?cb=2010072608370');
+}
+
+.front, .back{
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-backface-visibility: hidden;
+}
+
+.front{
+  z-index: 2;
+  overflow: hidden;
+}
+
+.back{
+  -webkit-transform: rotateY(180deg);
+} */
+
+#card {
+  border: 5px solid #363944;
+  width: 350px;
+  height: 600px;
+  background: #BF8737;
+  margin: 5px;
+}
+#name {
+  font-size: 20px;
+  height: 60px;
+  border-top: 5px solid rgba(255,255,255,.7);
+  border-left: 5px solid rgba(255,255,255,.7);
+  border-right: 5px solid rgba(0,0,0,.5);
+  border-bottom: 5px solid rgba(0,0,0,.5);
+  margin: 15px 15px;
+  padding: 8px;
+}
+#symbol {
+  font-size: 10px;
+  float: right;
+}
+#symbol img {
+  width: 50px;
+  margin-top: -8px;
+}
+#level { 
+  text-align: right;
+  color: yellow;
+  margin: 10px 40px;
+}
+#pic {
+  
+  margin: 10px;
+}
+#pic img {
+  border: 4px solid #545F7C;
+  box-shadow: 5px 5px 5px rgba(0,0,0,.5);
+  
+}
+#pic img {
+  background-color: rgb(255, 255, 255);
+
+  width: 170px;
+  height: 170px;
+}
+
+#description {
+  margin: 10px;
+  background: #DDCCB3;
+  width: 310px;
+  height: 270px;
+  padding: 6px;
+  border: 4px solid #B34930;
+}
+#description h2 {
+  font-variant: small-caps;
+  margin: 0;
+  font-style: normal;  
+}
+#description p {
+  font-style: italic;
+  font-size: 18px;
+  margin: 0;
+}
+
+
+#stats {
+  margin-top: 40px;
+  border-top: 2px solid #000;
+  text-align: right;
+}
+#stats p {
+  margin-top: -21px;
+  text-align: left;
+}
+
