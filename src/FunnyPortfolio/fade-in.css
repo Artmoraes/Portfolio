@@ -1,0 +1,29 @@
+.distance {
+  margin-top: 150px;
+}
+
+.fade--in {
+  animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.move {
+  animation: walk 2s steps(15) infinite;
+}
+
+@keyframes walk {
+  from {
+    margin-left: -60px;
+  }
+  to {
+    margin-left: 50px;
+  }
+}

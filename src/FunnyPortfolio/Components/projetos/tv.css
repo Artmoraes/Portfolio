@@ -1,8 +1,8 @@
 .container {
   height: 800px;
   width: 1400px;
-  background-color: #99e299;
-  border: 3px solid black;
+  /* background-color: #99e299;
+  border: 3px solid black; */
   margin: auto;
   top: 0;
   bottom: 0;
@@ -11,7 +11,7 @@
 }
 
 .tv {
-  background-color: #ed5650;
+  background-color: #3c5ca7;
   height: 650px;
   width: 1270px;
   position: relative;
@@ -27,7 +27,7 @@
 }
 
 .speaker>div{
-  background-color: #d52f31;
+  background-color: #354363;
   height: 6px;
   width: 50px;
   margin-bottom: 5px;
@@ -35,7 +35,7 @@
 }
 
 .slot{
-  background-color: #d52f31;
+  background-color: #354363;
   height: 6px;
   width: 320px;
   position: absolute;
@@ -46,18 +46,18 @@
 
 .antenna{
   background-color: #3d3f3d;
-  height: 20px;
-  width: 60px;
+  height: 40px;
+  width: 80px;
   border-radius: 20px 20px 0 0;
   position: absolute;
-  top: -20px;
+  top: -40px;
   left: 50px;
 }
 
 .a{
   background-color: #3d3f3d;
   height: 70px;
-  width: 6px;
+  width: 10px;
   border-radius: 6px;
   position: relative;
 }
@@ -75,7 +75,7 @@
 }
 
 .stand1, .stand2{
-  background-color: #d52f31;
+  background-color: #354363;
   height: 10px;
   width: 48px;
   position: absolute;
@@ -93,10 +93,10 @@
 
 input[type="checkbox"]{
   -webkit-appearance: none;
-  background-color: #f3947e;
+  background-color: #282C34;
   height: 30px;
   width: 30px;
-  border-radius: 50%;
+  border-radius: 30%;
   position: absolute;
   top: 100px;
   right: 15px;
@@ -107,13 +107,13 @@ input[type="checkbox"]{
 input[type="checkbox"]:before{
   content: 'Desligada';
   position: absolute;
-  background-color: #000000;
+  background-color: black;
   top: -50px;
   height: 540px;
   width: 1155px;
   right: 45px;
   border-radius: 5px;
-  border: 10px solid #d52f31;
+  border: 10px solid #354363;
   background-size: 125px 140px;
   animation: move 20s infinite linear;
 }
@@ -124,19 +124,36 @@ input[type="checkbox"]:before{
   }
 }
 
-.project {
-  display: flex;
-  opacity: 0;
-  position: relative;
-}
-
 input:checked[type="checkbox"]:before, .project:focus{
-  content:'Ligada';
+  content:'';
   background-size: 100% 100%;
   animation: none;
   background-color:#e4e4e4;
-  opacity: 1;
+}
 
+
+.screen{
+  top: 60px;
+  right: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 1135px;
+  height: 520px;
+  position: absolute;
+  cursor: pointer;
+  justify-content: center;
+  align-content: center;
+}
+
+.project {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 180px;
+  height: 190px;
+  margin: 20px;
+  border-radius: 20px;
 }
 
 

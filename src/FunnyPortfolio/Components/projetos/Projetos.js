@@ -1,21 +1,34 @@
+import { useState } from 'react';
 import construction from './png/em_construcao.png';
 import './tv.css';
 
-const renderProjects = () => {
-  return <img src={construction} className="project" alt="logo" width="300px" />
-}
+function Projetos() {
+  const [test, setTest] = useState();
 
-const renderTV = () => {
+  const renderProjects = () => {
+    return <>
+      <img src={construction} className="project" alt="logo" />
+      <img src={construction} className="project" alt="logo" />
+      <img src={construction} className="project" alt="logo" />
+      <img src={construction} className="project" alt="logo" />
+      <img src={construction} className="project" alt="logo" />
+      <img src={construction} className="project" alt="logo" />
+      <img src={construction} className="project" alt="logo" />
+      <img src={construction} className="project" alt="logo" />
+      <img src={construction} className="project" alt="logo" />
+      <img src={construction} className="project" alt="logo" />
+    </>
+  }
 
   return <body>
     <div className='container'>
       <div className='tv'>
         <label>
-          
-          <input type="checkbox"></input>
-          {renderProjects()}
+          <input type="checkbox" value={test} onClick={() => setTest(!test)}></input>
+          <div className='screen'>
+            {test ? renderProjects() : ''}
+          </div>
         </label>
-
         <div className='speaker'>
           <div></div>
           <div></div>
@@ -32,20 +45,6 @@ const renderTV = () => {
       </div>
     </div>
   </body>
-}
-
-function Projetos() {
-  return (
-    <div>
-      {renderTV()}
-      {/* {renderProjects()}
-        {renderProjects()}
-        {renderProjects()}
-        {renderProjects()}
-        {renderProjects()}
-        {renderProjects()} */}
-    </div>
-  );
 }
 
 export default Projetos;

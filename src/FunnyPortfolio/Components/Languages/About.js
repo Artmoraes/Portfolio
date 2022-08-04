@@ -4,15 +4,13 @@ import html from './png/html.png';
 import JavaScript from './png/JavaScript.png';
 import logo from './png/logo.svg';
 import redux from './png/redux.png';
-
 import './style.css';
 
 
 function Projects() {
   return (
-    <>
-      <hr size="1" color="black"></hr>
-      <h1>Linguagens que desenvolvo.</h1>
+    <div className='fade--in distance'>
+      <h1 id='linguagens'>Linguagens que desenvolvo.</h1>
       <div className='space'>
         <div id="card">
           <div id="name">JavaScript
@@ -116,7 +114,7 @@ function Projects() {
         </div>
 
       </div>
-    </>
+    </div>
   );
 }
 
