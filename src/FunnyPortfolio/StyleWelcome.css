@@ -1,4 +1,4 @@
-@media screen and (min-width: 320px) and (max-width: 1024px) {
+@media screen and (min-width: 320px) and (max-width: 1439px) {
   body {
     font-family: 'VT323', monospace;
     text-align: center;
@@ -62,7 +62,7 @@
   }
 }
 
-@media screen and (min-width: 1025px){
+@media screen and (min-width: 1440px){
 
 body {
   font-family: 'VT323', monospace;
