@@ -1,7 +1,77 @@
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+  body {
+    font-family: 'VT323', monospace;
+    text-align: center;
+    /* background-color: #c0bdbd; */
+  }
+  .nav--bar {
+    background-color: #282C34;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    display: flex;
+  }
+
+  .item--react-logo {
+    display: flex;
+    justify-content: center;
+  }
+
+  .section--logo {
+    display: flex;
+    width: 100px;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+  
+  .icons--navBar {
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+    align-items: center;
+    justify-self: flex-end;
+    justify-content: flex-end;
+  }
+  .formalIMG{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+  }
+
+  .item--icon {
+    display: none;
+  }  
+
+  .slideRight{
+    display: none;
+  }
+
+  .JB--Apontando{
+    display: none;
+  }
+
+  .photo--perfil{
+    width: 200px;
+    border-radius: 50%;
+  }
+
+  .My--Person--Block{
+    margin: 10px;
+  }
+}
+
+@media screen and (min-width: 1025px){
+
 body {
   font-family: 'VT323', monospace;
   text-align: center;
   background-color: #c0bdbd;
+}
+
+.photo--perfil{
+  display: none;
 }
 
 .nav--bar {
@@ -35,6 +105,13 @@ body {
 }
 
 .item--icon {  
+  display: flex;
+  width: 80px;
+  height: 80px;
+  margin: 5px;
+}
+
+.formalIMG{
   display: flex;
   width: 80px;
   height: 80px;
@@ -114,4 +191,5 @@ body {
   display: flex;
   width: 900px;
   height: 400px;
+}
 }

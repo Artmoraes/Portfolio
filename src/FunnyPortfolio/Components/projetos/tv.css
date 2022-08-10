@@ -1,8 +1,69 @@
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+  .alingScreen{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  input[type="checkbox"]{
+    display: flex;
+    -webkit-appearance: none;
+    justify-content: center;
+    height: 30px;
+    width: 100%;
+    position: relative;
+    top: 60px;
+    outline: none;
+    cursor: pointer;
+  }
+
+  input[type="checkbox"]:before{
+    content: 'Ver projetos';
+    font-size: 25px;
+    position: absolute;
+    border: 1px solid;
+    top: -50px;
+    border-radius: 5px;
+    background-size: 225px 140px;
+  }
+
+  input:checked[type="checkbox"]:before, .project:focus{
+    content: 'Recolher';
+    background-size: 100% 100%;
+  }
+
+  .screen{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    width: 90%;
+  }
+  
+  .project {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 90px;
+    height: 90px;
+    margin: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  
+}
+
+@media screen and (min-width: 1025px){
 .container {
   height: 800px;
   width: 1400px;
-  /* background-color: #99e299;
-  border: 3px solid black; */
   margin: auto;
   top: 0;
   bottom: 0;
@@ -155,5 +216,4 @@ input:checked[type="checkbox"]:before, .project:focus{
   margin: 20px;
   border-radius: 20px;
 }
-
-
+}

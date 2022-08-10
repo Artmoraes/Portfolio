@@ -1,3 +1,125 @@
+@media screen and (min-width: 300px) and (max-width: 1024px) {
+  body {
+    font-family: 'VT323', monospace;
+    text-align: center;
+  }
+  
+  .body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+  }
+  
+  .form{
+    display: flex;
+    width:750px;
+    justify-content:center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    height: 450px;
+  }
+  
+  .forms{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-evenly;
+    width:1900px;
+  }
+  
+  .contacts{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    width: 400px;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  .contactMe--Form{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 20px;
+    color: aliceblue;
+    flex-direction: column;
+    width: 400px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+  .contactMe--Name {
+    width: 380px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-items: flex-start;
+    align-items: flex-start;
+  }
+  
+  .contactMe--Label {
+    width: 380px;
+    display: flex;
+    justify-items: flex-start;
+    align-items: flex-start;
+  }
+  
+  .buzz-contactMe--Image{
+    display: flex;
+    align-self: flex-end;
+    margin-bottom: 5px;
+  }
+  
+  .contactMe--Input {
+    display: flex;
+    flex-direction: row;
+    width: 180px;
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  
+  .contactMe--Others--Input{
+    display: flex;
+    height: 50px;
+    margin: 0px 10px 10px 0px;
+  }
+  .contactMe--Text {
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    width: 380px;
+    margin-bottom: 20px;
+  }
+  .contactMe--Button {
+    display: flex;
+    align-self: flex-end;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .contactMe--Perfil{
+    display: none;
+    width: 250px;
+    border-radius: 50%;
+  }
+  
+  .contactMe--Batman{
+    display: none;
+  }
+  
+
+}
+
+@media screen and (min-width: 1440px) {
+
 body {
   font-family: 'VT323', monospace;
   text-align: center;
@@ -110,5 +232,7 @@ textarea {
 }
 
 .contactMe--Batman{
+  width:40%;
   border-radius: 10%;
 }
+} 

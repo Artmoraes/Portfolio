@@ -1,10 +1,12 @@
 import React from 'react';
+import perfil from '../src/FunnyPortfolio/Components/Contact/png/perfil.jpg';
 import './FunnyPortfolio/StyleWelcome.css';
 
 const CardWelcomeBlock = () => {
   return (
     <div className="My--Person--Block">
       <div>
+        <img src={perfil} alt='perfil' className='photo--perfil'/>
         <h2>Quem sou eu?</h2>
         <p>
           What is Lorem Ipsum?!

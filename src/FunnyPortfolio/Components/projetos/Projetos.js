@@ -23,7 +23,7 @@ function Projetos() {
   return <body>
     <div className='container'>
       <div className='tv'>
-        <label>
+        <label className='alingScreen'>
           <input type="checkbox" value={test} onClick={() => setTest(!test)}></input>
           <div className='screen'>
             {test ? renderProjects() : ''}

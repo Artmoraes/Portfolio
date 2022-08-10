@@ -11,7 +11,7 @@ function contats() {
       <label className='contacts'>
         <h3>Meios para contato:</h3>
         <p>Telefone: {`(81) 99395-8789`}</p>
-        <p>Email: {`Artmoraes1@gmail.com`}</p>
+        <p>Email: {`ArthurBarrosDev@gmail.com`}</p>
       </label>
       <img src={batman} alt="Avatar" className='contactMe--Batman'></img>
     </fieldset>

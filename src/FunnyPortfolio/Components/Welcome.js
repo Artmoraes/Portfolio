@@ -20,7 +20,7 @@ const navBarWelcome = () => {
       </section>
       <section className="icons--navBar">
         <a href="#formal" target="_parent" title="Ir para o portfólio formal">
-          <img src={avatar} alt="Avatar" className="item--icon" />
+          <img src={avatar} alt="Avatar" className="formalIMG" />
         </a>
         <a href="#projetos" target="_parent" title="Projetos realizados">
           <img src={pcBinario} alt="Avatar" className="item--icon" />
