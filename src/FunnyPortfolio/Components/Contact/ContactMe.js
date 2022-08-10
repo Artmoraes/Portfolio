@@ -22,11 +22,10 @@ function form() {
   return (
     <>
       <fieldset className="form">
-        <fieldset>
           <form className='contactMe--Form'>
             <label className='contactMe--Name'>
               <input type="text" placeholder='Nome' name="nome" required className='contactMe--Input form-control'></input>
-              <input type="text" placeholder='Sobrenome' name="sobrenome" required className='contactMe--Input form-control'></input>
+              <input type="text" placeholder='Sobrenome' name="sobrenome" required className='contactMe--Input2 form-control last--name'></input>
             </label>
             <label className='contactMe--Label'>
               <input type="email" placeholder='Email' name="email" required className='contactMe--Others--Input form-control'></input>
@@ -37,7 +36,6 @@ function form() {
             <textarea rows="4" col="50" placeholder='Mensagem' required className='contactMe--Text form-control'></textarea>
             <input type="submit" value="Enviar" className='submit--buton' name='Enviar'></input>
           </form>
-        </fieldset>
       </fieldset>
     </>
   );
