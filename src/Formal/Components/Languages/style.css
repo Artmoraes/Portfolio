@@ -1,0 +1,41 @@
+.container--languages--formal{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+.languages--formal:last-child{
+  width: 250px;
+  margin: 0px;
+  margin-left: -40px;
+
+}
+
+
+.languages--formal{
+  width: 150px;
+  border-radius: 0%;
+  margin: 10px;
+}
+
+.container--tools--formal{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 20px;
+}
+
+.tools--formal{
+  width: 150px;
+  border-radius: 0%;
+  margin: 10px;
+}
+
+.tools--formal:nth-child(2){
+  width: 150px;
+  border-radius: 0%;
+  margin: 10px;
+}

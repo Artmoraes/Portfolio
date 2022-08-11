@@ -1,17 +1,24 @@
+import { BrowserRouter, Route } from 'react-router-dom';
 import './App.css';
-import Contact from './FunnyPortfolio/Components/Contact';
-import Creations from './FunnyPortfolio/Components/Creations';
-import AboutMe from './FunnyPortfolio/Components/Languages/About';
-import Welcome from './FunnyPortfolio/Components/Welcome';
+import Formal from './Formal';
+import Home from './Home';
+import Personality from './Personality';
 
 function App() {
   return (
-    <div className="App">
-      <Welcome />
-      <Creations />
-      <AboutMe />
-      <Contact />
-    </div>
+    <BrowserRouter>
+        <Route path="/" exact>
+          <Home />
+        </Route>
+
+        <Route path="/personality" exact>
+          <Personality />
+        </Route>
+
+        <Route path="/formal" exact>
+          <Formal />
+        </Route>
+    </BrowserRouter>
   );
 }
 

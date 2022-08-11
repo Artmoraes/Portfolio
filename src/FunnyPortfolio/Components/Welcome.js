@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import CardWelcome from "../../CardWelcome";
 import '../fade-in.css';
 import logo from '../logo.svg';
@@ -19,9 +20,9 @@ const navBarWelcome = () => {
         <img src={logo} className="App-logo item--react-logo" alt="logo React" title="Este site foi feito em React.js" />
       </section>
       <section className="icons--navBar">
-        <a href="#formal" target="_parent" title="Ir para o portfólio formal">
+        <Link to='/formal'>
           <img src={avatar} alt="Avatar" className="formalIMG" />
-        </a>
+        </Link>
         <a href="#projetos" target="_parent" title="Projetos realizados">
           <img src={pcBinario} alt="Avatar" className="item--icon" />
         </a>
@@ -37,7 +38,7 @@ const navBarWelcome = () => {
 }
 
 const titleWelcome = () => {
-  return (<h1 className="fade--in" style={{'margin-top': '20px'}}>Bem-Vindo ao meu portfólio</h1>);
+  return (<h1 className="fade--in" style={{ 'margin-top': '20px' }}>Bem-Vindo ao meu portfólio</h1>);
 };
 
 const CardLetsGoBlock = () => {
