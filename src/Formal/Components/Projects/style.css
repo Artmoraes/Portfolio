@@ -1,0 +1,19 @@
+.container--projects--formal{
+  padding: 20px;
+  width: 100%;
+}
+
+.tittle--projects--formal{
+  margin: 20px;
+}
+
+.projects--formal{
+  margin: 40px;
+}
+
+.unity--project--formal{
+  width: 300px;
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 20px;
+}

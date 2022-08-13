@@ -1,0 +1,17 @@
+.body--contacts--formal{
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.redes--sociais{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 250px;
+  margin: 20px;
+}
+
+.redes--sociais img{
+  width: 100px;
+}

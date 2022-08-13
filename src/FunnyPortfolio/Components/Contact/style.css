@@ -27,7 +27,7 @@
     flex-wrap: wrap;
     flex-direction: row;
     justify-content:space-evenly;
-    width:1900px;
+    width:100%;
   }
   
   .contacts{
@@ -160,7 +160,7 @@ body {
 
 .contacts{
   display: flex;
-  align-self: flex-end;
+  align-self: center;
   width: 400px;
 }
 
@@ -194,12 +194,6 @@ textarea {
   display: flex;
   justify-items: flex-start;
   align-items: flex-start;
-}
-
-.buzz-contactMe--Image{
-  display: flex;
-  align-self: flex-end;
-  margin-bottom: 5px;
 }
 
 .contactMe--Input {
@@ -245,7 +239,24 @@ textarea {
 }
 
 .contactMe--Batman{
-  width:40%;
+  width:30%;
+  height: 30%;
+  display: flex;
+  align-self: center;
   border-radius: 10%;
+}
+
+.redes--sociais--personality{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 250px;
+  margin: 20px;
+}
+
+.redes--sociais--personality img{
+  display: flex;
+  width: 250px;
 }
 } 

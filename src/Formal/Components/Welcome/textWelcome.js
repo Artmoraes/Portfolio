@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import perfil from './png/perfil.jpg';
 import './style.css';
 
@@ -7,6 +8,11 @@ function TextWelcome() {
       <header>
         <nav className='nav--bar--formal'>
           <ul>
+            <li >
+              <Link to="/personality" className='link--personality'>
+                Other Style
+              </Link>
+            </li>
             <li>About Me</li>
             <li>Languages</li>
             <li>Works</li>
