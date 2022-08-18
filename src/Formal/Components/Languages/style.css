@@ -1,5 +1,9 @@
 .container--languages--tools{
-  background-color: brown;
+  background-color: #262539;
+  border-radius: 20px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .container--languages--formal{
@@ -10,13 +14,10 @@
   margin: 20px;
 }
 
-.languages--formal:last-child{
-  width: 300px;
-  margin: 0px;
-  margin-left: -40px;
-
+.container--languages--formal img{
+  background-color: rgb(255, 255, 255);
+  border-radius: 10%;
 }
-
 
 .languages--formal{
   width: 150px;
@@ -24,8 +25,14 @@
   margin: 10px;
 }
 
+.title--languages{
+  margin-top: 80px;
+  color: aliceblue;
+}
+
 .title--tools{
   margin-top: 80px;
+  color: aliceblue;
 }
 
 .container--tools--formal{
@@ -34,7 +41,12 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   margin: 20px;
-  margin-bottom: 110px;
+  margin-bottom: 50px;
+}
+
+.container--tools--formal img{
+  background-color: rgb(255, 255, 255);
+  border-radius: 10%;
 }
 
 .tools--formal{
@@ -45,6 +57,5 @@
 
 .tools--formal:nth-child(2){
   width: 150px;
-  border-radius: 0%;
   margin: 10px;
 }

@@ -6,7 +6,7 @@ import Welcome from './Formal/Components/Welcome/Welcome';
 
 function Formal() {
   return (
-    <div className="">
+    <div className="box--formal body--formal">
       <Welcome />
       <Linguagens />
       <Projetos />

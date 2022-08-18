@@ -120,7 +120,20 @@
   .contactMe--Batman{
     display: none;
   }
+  .redes--sociais--personality{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 250px;
+    margin: 20px;
+  }
   
+  .redes--sociais--personality img{
+    display: flex;
+    width: 150px;
+    margin: 20px;
+  }
 
 }
 
@@ -257,6 +270,7 @@ textarea {
 
 .redes--sociais--personality img{
   display: flex;
-  width: 250px;
+  width: 150px;
+  margin: 20px;
 }
 } 

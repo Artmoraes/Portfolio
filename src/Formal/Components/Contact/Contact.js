@@ -47,7 +47,7 @@ function contats() {
 
 function Contact() {
   return (
-    <div className="body--contacts--formal">
+    <div className="body--contacts--formal" id='contact'>
       {contats()}
       {/* {form()} */}
     </div>

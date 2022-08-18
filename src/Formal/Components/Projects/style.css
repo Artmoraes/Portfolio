@@ -1,3 +1,13 @@
+.container--all-projects--formal{
+  background-color: #3D4468;
+  color: aliceblue;
+  border-radius: 20px;
+  margin-bottom: 50px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .container--projects--formal{
   padding: 20px;
   width: 100%;
@@ -16,4 +26,5 @@
   border: 1px solid black;
   margin: 10px;
   border-radius: 20px;
+  cursor: pointer;
 }

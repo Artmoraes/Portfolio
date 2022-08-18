@@ -4,19 +4,25 @@ import './style.css';
 
 function TextWelcome() {
   return (
-    <div className="">
+    <div className="container--all--content">
       <header>
         <nav className='nav--bar--formal'>
           <ul>
             <li >
               <Link to="/personality" className='link--personality'>
-                Other Style
+                Outro Estilo
               </Link>
             </li>
-            <li>About Me</li>
-            <li>Languages</li>
-            <li>Works</li>
-            <li>Contact</li>
+            <a href="#languages" target="_parent">
+              <li>{`Linguagens & Ferramentas`}</li>
+            </a>
+            <a href="#works" target="_parent">
+              <li>Trabalhos</li>
+            </a>
+            <a href="#contact" target="_parent">
+              <li>Contato</li>
+            </a>
+
           </ul>
         </nav>
       </header>

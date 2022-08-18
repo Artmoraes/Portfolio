@@ -8,7 +8,6 @@ import redux from './png/redux.png';
 import styled from './png/styled-components.png';
 import bootstrap from './pngTools/bootstrap.png';
 import bulma from './pngTools/bulmaClean.png';
-import download from './pngTools/download.png';
 import github from './pngTools/github.png';
 import vscode from './pngTools/vscode.png';
 
@@ -16,8 +15,8 @@ import './style.css';
 
 function Linguagens() {
   return (
-    <>
-      <h1 id=''>Linguagens que trabalho.</h1>
+    <div className='container--languages--tools'>
+      <h1 className='title--languages' id='languages'>Linguagens que trabalho.</h1>
       <div className='container--languages--formal'>
         <img src={css} alt="Linguagem" className='languages--formal' />
         <img src={html} alt="Linguagem" className='languages--formal' />
@@ -33,11 +32,11 @@ function Linguagens() {
       <div className='container--tools--formal'>
         <img src={bootstrap} alt="ferramentas" className='tools--formal' />
         <img src={bulma} alt="ferramentas" className='tools--formal' />
-        <img src={download} alt="ferramentas" className='tools--formal' />
+        {/* <img src={download} alt="ferramentas" className='tools--formal' /> */}
         <img src={github} alt="ferramentas" className='tools--formal' />
         <img src={vscode} alt="ferramentas" className='tools--formal' />
       </div>
-    </>
+    </div>
   );
 }
 
