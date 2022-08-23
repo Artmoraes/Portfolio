@@ -4,6 +4,12 @@
     pointer-events: none;
   }
   
+  .space--button{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+  }
+  
   @media (prefers-reduced-motion: no-preference) {
     .App-logo {
       animation: App-logo-spin infinite 20s linear;
@@ -29,6 +35,11 @@
   height: 10vmin;
   pointer-events: none;
 }
+    .space--button{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+  }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
