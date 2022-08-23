@@ -3,7 +3,7 @@ import './App.css';
 
 function Home() {
   return (
-    <div className="App">
+    <div className="App space--button">
       <h1>Home</h1>
       <Link to='/personality'>
         <button type="button" name='Personality'>Personality</button>
